@@ -1384,7 +1384,7 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .desctop_sub-menu {
         display: flex;
-        gap: 50px;
+        /* gap: 50px; */
     }
 
     .sub-menu__ul {
@@ -1424,7 +1424,7 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .desctop__sub-menu-button {
         display: block;
-        margin-top: 40px;
+        margin: 40px 0;
         /* width: 400px; */
         align-self: center;
     }
