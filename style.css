@@ -540,8 +540,6 @@ main .advantages_block {
 
 .sub-menu__ul {
     width: 100%;
-    margin-top: 20px;
-    /* padding: 0 28px; */
     background: var(--block-color);
 }
 
@@ -1384,7 +1382,8 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .desctop_sub-menu {
         display: flex;
-        /* gap: 50px; */
+        padding: 30px 50px 0 0;
+        gap: 30px;
     }
 
     .sub-menu__ul {
@@ -1406,12 +1405,10 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .desctop__sub-menu-img {
         display: block;
-        /* padding-top: 50px; */
         border-radius: 40px;
         height: 400px;
         /* width: 400px; */
         object-fit: cover;
-        margin: 90px 50px 30px;
     }
 
     .sub-menu__ul-services ul li {
@@ -1425,7 +1422,6 @@ button[type="button"], input[type="number"], #calculate-btn{
     .desctop__sub-menu-button {
         display: block;
         margin: 40px 0;
-        /* width: 400px; */
         align-self: center;
     }
 
@@ -1457,12 +1453,8 @@ button[type="button"], input[type="number"], #calculate-btn{
     }
 
     .additional span {
-        padding: 40px 50px;
+        padding: 40px 50px 0 50px;
         width: 550px;
-    }
-
-    .additional .desctop__sub-menu-image {
-        margin-top: 0;
     }
 
     .additional .desctop__sub-menu-image img {
@@ -1518,9 +1510,6 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .footer__descr-social {
         padding: 0;
-    }
-    .desctop__sub-menu-container {
-    margin-top: -50px;
     }
     .okna-descr-text{
         padding: 20px 0;
