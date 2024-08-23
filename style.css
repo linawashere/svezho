@@ -1382,8 +1382,9 @@ button[type="button"], input[type="number"], #calculate-btn{
 
     .desctop_sub-menu {
         display: flex;
-        padding: 30px 50px 0 0;
+        padding: 15px 50px 0 0;
         gap: 30px;
+        border-top: var(--block-color) 3px solid;
     }
 
     .sub-menu__ul {
@@ -1453,7 +1454,7 @@ button[type="button"], input[type="number"], #calculate-btn{
     }
 
     .additional span {
-        padding: 40px 50px 0 50px;
+        padding: 40px 50px 15px 50px;
         width: 550px;
     }
 
